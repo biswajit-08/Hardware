@@ -1316,6 +1316,45 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 52.07 44.45)
+		(end 229.87 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ed528ecf-e97f-431f-b6bc-0df5ebcfee2b")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 80.264 58.928 0)
+		(effects
+			(font
+				(size 250 250)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "38fdd3c5-e1f8-4a2c-95a4-318573929459")
+	)
+	(text "12v AC to DC Converter"
+		(exclude_from_sim no)
+		(at 104.648 50.546 0)
+		(effects
+			(font
+				(face "Lucida Sans Typewriter")
+				(size 2.54 2.54)
+				(bold yes)
+				(italic yes)
+				(color 255 1 35 1)
+			)
+			(justify right)
+		)
+		(uuid "3b4f2640-a73c-459d-b90a-dd58492376ef")
+	)
 	(junction
 		(at 140.97 63.5)
 		(diameter 0)
@@ -1882,7 +1921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b83c6a7-67d5-4798-9b79-014d62e81a33")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 104.14 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1966,7 +2005,7 @@
 		(instances
 			(project "AC-DC Converter"
 				(path "/912c8302-af48-4a23-b965-3a576f4cfed2"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2492,7 +2531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7514fbf-63a7-4a45-8909-1b416260bf92")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 123.19 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2576,7 +2615,7 @@
 		(instances
 			(project "AC-DC Converter"
 				(path "/912c8302-af48-4a23-b965-3a576f4cfed2"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
